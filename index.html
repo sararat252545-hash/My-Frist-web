@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head> 
+  <style>
+  
+  h1{
+    margin:20px;
+    padding:10px;
+    background-color:white;
+    color:black;
+    font-size:40px;
+    text-align:center;
+    }
+    h2{
+      color:white;
+    }
+  body{
+    background-color:black;
+  }
+
+  table, th, td{
+    margin:auto;
+    margin-top:20px;
+    border:1px solid white;
+    border-collapse:collapse;
+    color:white;
+    padding:10px;
+  }
+  
+    .box{
+      border-radius:12px;
+      display:flex;
+      align-items:center;
+      color:white;
+      justify-content:center;
+      width:150px;
+      height:80px;
+      background-color:#444;
+      margin:10px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.5);
+      transition:0.3s;
+    }
+    
+    .box:hover{
+      transform:translateY(-5px);
+      background-color:white;
+      color:black;
+      cursor:pointer;
+    }
+    
+    .container{
+      display:flex;
+      gap:20px;
+      justify-content:center;
+    }
+    
+    .page{
+      max-width:900px;
+      margin:auto;
+      padding:20px;
+    }
+    
+    input, button{
+      background-color:#222;
+      color:white;
+      border:1px solid gray;
+      margin:5px;
+      padding:5px;
+    }
+    
+    .card{
+      background-color:#333;
+      color:white;
+      padding:20px;
+      margin:10px;
+      border-radius:12px;
+      box-shadow:0 4px 10px rgba(0,0,0,0.5);
+    }
+    
+    footer{
+      color:white;
+      display:flex;
+      justify-content:center;
+      gap:30px;
+      margin-top:10px;
+    }
+    
+    form{
+     text-align:center; 
+     margin-top:20px;
+    }
+  
+  </style>
+</head>
+
+<body>
+  <div class="page">
+    
+     <h1>My Racing Club</h1>
+<main>
+  <section>
+    <h2>Lewis Hamilton</h2>
+  </section>
+  <section>
+    <h2>Max Verstappen</h2>
+  </section>
+</main>
+  
+<footer>
+  <p>Email</p>
+  <p>Passwords</p>
+  </footer>
+
+<form>
+  <input type="text">
+  <input type="email">
+  <button>Submit</button>
+</form>
+
+<table>
+  
+  <tr>
+    <th>Driver</th>
+    <th>Country</th>
+  </tr>
+  
+  <tr>
+    <td>Lewis Hamilton</td>
+    <td>UK</td>
+  </tr>
+ 
+ <tr>
+   <td>Max Versteppen</td>
+   <td>Naderland</td>
+  </tr>
+  </table>
+  
+  <div class="card">
+  <h2>Featured Drivers</h2>
+    
+  <div class="container">
+  <div class="box">Lewis</div>
+ <div class="box">Max</div>
+  </div>
+  </div>
+  
+  <div class="card">
+  <h2>Backup Drivers</h2>
+    
+  <div class="container">
+   <div class="box">Lewis</div>
+   <div class="box">Max</div>
+  </div>
+  </div>
+
+</div>
+   
+</body>
+</html>
